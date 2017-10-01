@@ -1,0 +1,12 @@
+npm i --save-dev body-parser@1.15.2 express@4.14.0 mongoose@4.7.0 node-restful@0.2.5 pm2@2.1.5 nodemon@1.11.0
+sudo apt-get install mongodb-server -y
+sudo service mongodb start
+
+// commands
+npm run dev
+npm run production
+npm i pm2 -g
+pm2 monit
+pm2 status
+pm2 stop todo-app
+pm2 start todo-app
